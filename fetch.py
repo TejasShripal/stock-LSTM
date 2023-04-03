@@ -2,7 +2,7 @@ from urllib.request import urlopen
 import json
 import csv
 
-URL = 'https://financialmodelingprep.com/api/v3/historical-price-full/GOOG?from=2011-10-06&to=2022-03-03&apikey=7721d4077165586091b074b581a88c16'
+URL = 'linkANDapikey'
 res = urlopen(URL)
 data = res.read().decode('utf-8')
 data = json.loads(data)
